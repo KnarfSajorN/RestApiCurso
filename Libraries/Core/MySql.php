@@ -6,7 +6,8 @@
 
         public function __construct(){
             parent::__construct();
-            $this->conexion = $this->conexion->connect();
+            //$this->conexion = $this->conexion->connect();
+            $this->conexion = $this->connect();
         }
 
         public function insert(string $query, array $values){
@@ -19,7 +20,7 @@
                 $insert->closeCursor();
                 return $idInsert ? $idInsert : 0;
             } catch (PDOException $e) {
-                $response = "Error: " . $e.->getMessage();
+                $response = "Error: " . $e->getMessage();
                 return $response;
             }
             

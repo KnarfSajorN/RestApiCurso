@@ -1,5 +1,6 @@
 <?php
-    const BASE_URL = "http://localhost:8000/ApiRestDemo/framework/";
+    //const BASE_URL = "http://localhost:8000/ApiRestDemo/framework/";
+    const BASE_URL = "http://localhost:81/RestApiCurso/";
     //Datos de Conexión a la Base de Datos
     const CONNECTION = false; // Set to true if you want to enable database connection
     const DB_HOST = "170.249.236.236";

@@ -13,7 +13,7 @@
                 require_once($routeClass);
                 $this->model = new $model();
             } else {
-                throw new Exception("Model file not found: " . $modelFile);
+                throw new Exception("Model file not found: " . $model);
             }
         }
 

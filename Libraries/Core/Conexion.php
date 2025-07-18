@@ -1,6 +1,6 @@
 <?php
     class Conexion{
-        private $connect
+        private $connect;
         public function __construct(){
             if(CONNECTION){
                 try {
